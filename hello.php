@@ -2,7 +2,7 @@
     <head>
     </head>
     <body>
-        <h1>Hello moi!</h1>
+        <h1>Hello!</h1>
 
         <p>PHP version: <?php echo PHP_VERSION ?></p>
         <p>Deployed app: <?php echo getenv('SENSIO_BARKET_APP') ?></p>
