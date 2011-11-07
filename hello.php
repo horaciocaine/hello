@@ -7,5 +7,9 @@
         <p>PHP version: <?php echo PHP_VERSION ?></p>
         <p>Deployed app: <?php echo getenv('SENSIO_BARKET_APP') ?></p>
         <p>Deployed version: <?php echo getenv('SENSIO_BARKET_VERSION') ?></p>
+
+        <p>
+            <?php phpinfo(); ?>
+        </p>
     </body>
 </html>
